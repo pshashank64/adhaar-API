@@ -1,0 +1,17 @@
+<!-- example-form.ejs -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submit Otp</title>
+</head>
+<body>
+  <h1>Enter the Otp recieved on your phone: </h1>
+  <form action="/submit-otp" method="POST">
+    <label for="number">Enter OTP:</label>
+    <input type="number" id="otp" name="otp">
+    
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
